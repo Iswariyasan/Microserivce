@@ -45,7 +45,7 @@ exports.generateOTP = async function (req, res) {
             host: 'smtp.gmail.com',
             auth: {
                 user: "iswariyasankar95@gmail.com",
-                pass: "Ishusan@18"
+                pass: ""
             }
         });
         var mail = {
