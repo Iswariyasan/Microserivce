@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { boolean } = require('webidl-conversions');
 const otpSchema = mongoose.Schema({
     otp: {
        type: String,
